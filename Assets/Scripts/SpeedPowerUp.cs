@@ -21,9 +21,9 @@ public class SpeedPowerUp : MonoBehaviour
             StartCoroutine( UseSpeedPowerUp(other) );
         }
 
-        Renderer[] rs; 
-        for(int i = 0; i < 4; i++)
-            SomeObject.transform.parent.GetChild(SomeObject.transform.GetSiblingIndex() + 1);
+        //Renderer[] rs; 
+        //for(int i = 0; i < 4; i++)
+        //    SomeObject.transform.parent.GetChild(SomeObject.transform.GetSiblingIndex() + 1);
 
 
     }
