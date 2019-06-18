@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: 0ef66e0617cc4ab4f8a428bd562f803c
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: RedBeard_WoodWall
+    2800000: RedBeard_WoodWall - normal
+    2800002: RedBeard_WoodWall - height
+    2800004: RedBeard_WoodWall - metallic
+    2800006: RedBeard_WoodWall - diffuse
+    11400000: sbsar
+    11400002: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 19
+  mGraphInstanceData:
+  - graphLabel: RedBeard_WoodWall
+    prototypeName: RedBeard_WoodWall
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://RedBeard_WoodWall\" label=\"\" >\n  <presetinput
+      identifier=\"Light_Wood___Dark_Wood\" uid=\"1994884572\" type=\"4\" value=\"1\"
+      />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: normal,height,metallic,diffuse
+    materialProperties:
+      shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      shaderKeywords: _MAINTEX _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
+      lightmapFlags: 4
+      texEnvs:
+      - name: _BumpMap
+        texture: {fileID: 2800000, guid: 0ef66e0617cc4ab4f8a428bd562f803c, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {fileID: 2800006, guid: 0ef66e0617cc4ab4f8a428bd562f803c, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {fileID: 2800004, guid: 0ef66e0617cc4ab4f8a428bd562f803c, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {fileID: 2800002, guid: 0ef66e0617cc4ab4f8a428bd562f803c, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _BumpScale
+        float: 1
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DstBlend
+        float: 0
+      - name: _GlossMapScale
+        float: 1
+      - name: _Glossiness
+        float: 0.5
+      - name: _GlossyReflections
+        float: 1
+      - name: _Metallic
+        float: 0
+      - name: _Mode
+        float: 0
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.0476
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _UVSec
+        float: 0
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+    texturePackingList:
+    - outputName: normal
+      alphaSource: source
+    - outputName: height
+      alphaSource: source
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: diffuse
+      alphaSource: source
+    - outputName: mask
+      alphaSource: source
+    textureParameters:
+    - textureName: RedBeard_WoodWall - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: RedBeard_WoodWall - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: RedBeard_WoodWall - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: RedBeard_WoodWall - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: RedBeard_WoodWall - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: RedBeard_WoodWall - mask
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: normal
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: mask
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 0
+    material: {fileID: 2100000, guid: 0ef66e0617cc4ab4f8a428bd562f803c, type: 3}
+    generatedTextures:
+    - {fileID: 2800000, guid: 0ef66e0617cc4ab4f8a428bd562f803c, type: 3}
+    - {fileID: 2800002, guid: 0ef66e0617cc4ab4f8a428bd562f803c, type: 3}
+    - {fileID: 2800004, guid: 0ef66e0617cc4ab4f8a428bd562f803c, type: 3}
+    - {fileID: 2800006, guid: 0ef66e0617cc4ab4f8a428bd562f803c, type: 3}
